@@ -5,7 +5,7 @@ class Docker implements Serializable {
     def docker
 
     Docker(docker) {
-        this.docker = dcoker
+        this.docker = docker
     }
 
     def buildDockerImage(String imageName) {
